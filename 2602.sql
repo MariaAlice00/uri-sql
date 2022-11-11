@@ -17,6 +17,6 @@ insert into customers (id , name, street, city, state, credit_limit) values
 
 
 
--- Então você deve Exibir o nome de todos os clientes cujo estado seja ‘RS’.
+-- Exibir o nome de todos os clientes cujo estado seja ‘RS’.
 
 select name from customers where state = 'RS'
